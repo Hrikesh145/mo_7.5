@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .box{
+            border: 1px dotted blue;
+        }
+        .icons{
+            position:relative;
+            border: 2px solid ;
+        }
+        /* .insta{
+            position: relative;
+            top: -30px;
+            left: 30px;
+        } */
+         /* .insta{
+            position:absolute;
+            top:-100px
+        } */
+
+        .dummy{
+            border: 1px solid;
+            width: 200px;
+            height: 200px;
+        }
+        .insta{
+            position: sticky;
+            top:100px;
+        }
+        
+    </style>
+</head>
+<body>
+    <ol>
+        <li>static</li>
+        <li>Relative</li>
+        <li>Absulate</li>
+        <li>fixed</li>
+        <li>Sticky</li>
+    </ol>
+    <div class="icons">
+        <div class="box fb"><img src="icons/facebook.png" alt=""></div>
+        <div class="box insta"><img src="icons/insta.png" alt=""></div>
+        <div class="box js"><img src="icons/js.png" alt=""></div>
+    </div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+</body>
+</html>
